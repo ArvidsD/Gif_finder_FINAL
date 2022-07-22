@@ -14,6 +14,7 @@ import 'package:http/http.dart';
  * Results Displayer - in grid
  * Simple UI
  *
+ * included dark and light theme
  *
  * Currently I have bug, when user scrolls to bottom of the grid, and new items
  * are loaded, then user is redirected to top of the list. looking for solution.
@@ -40,8 +41,9 @@ class MyApp extends StatelessWidget{
         darkTheme: ThemeData(
           brightness: Brightness.dark
         ),
+
         themeMode: ThemeMode.system,
-        title: "Gif finder 3000",
+        title: "Gif finder",
         home: HomePage(),
 
 

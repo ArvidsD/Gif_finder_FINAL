@@ -6,6 +6,8 @@ import '../main.dart';
 import '../page/GifSearchPageNew.dart';
 /******************************************************************/
 //Navigator inspired from https://www.youtube.com/watch?v=ts9n211n8ZU&ab_channel=JohannesMilke
+
+
 class menu_navigator extends StatelessWidget{
 
   @override
@@ -19,6 +21,7 @@ class menu_navigator extends StatelessWidget{
         child: ListView(
           children: <Widget>[
 Text("Menu", style: TextStyle(fontSize: 40),).px20().py20(),
+
             menu_item(
               item_text:'Home',
               item_icon: Icons.home,
@@ -34,6 +37,7 @@ Text("Menu", style: TextStyle(fontSize: 40),).px20().py20(),
       ),
     );
   }
+  //menu object - will make next drawer items in same style.
   Widget menu_item({
     required String item_text,
     required IconData item_icon,
@@ -47,6 +51,8 @@ Text("Menu", style: TextStyle(fontSize: 40),).px20().py20(),
     );
 
   }
+
+  //navigation function
   void clicked_item(BuildContext context, int index){
     Navigator.of(context).pop();
     switch(index){

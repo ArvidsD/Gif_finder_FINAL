@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage>{
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text("Awesome Gif finder"),
+        title: Text("Gif finder app"),
 
       ),
 
@@ -48,11 +48,11 @@ class _HomePageState extends State<HomePage>{
                     style: BorderStyle.solid
                 ), borderRadius: BorderRadius.circular(5)),
                 onPressed: () {    Navigator.of(context).push(MaterialPageRoute(builder: (context)=>GifSearchPage2())); },
-                child: Text("SearchGiffs",
-                style: TextStyle(fontSize: 20))).py20(),
+                child: Text("Search Giffs",
+                style: TextStyle(fontSize: 20,color: Colors.white))).py20(),
             Text("made by Arvīds Dambenieks",
                 textAlign: TextAlign.center,
-                style: const TextStyle(fontSize: 10,
+                style: const TextStyle(fontSize: 12,
                 ) ).centered()
           ]
       ),
