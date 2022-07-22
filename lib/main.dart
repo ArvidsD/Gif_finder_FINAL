@@ -19,11 +19,7 @@ import 'package:http/http.dart';
  * are loaded, then user is redirected to top of the list. looking for solution.
  *
  *
- *
- *
- *
- *
- *
+
  */
 
 void main() {
