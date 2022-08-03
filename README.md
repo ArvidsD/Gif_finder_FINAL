@@ -1,6 +1,6 @@
 # gif_finder
 
-gif finder
+Simple gif finding app
 
 ## Getting Started
 
