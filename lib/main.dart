@@ -16,8 +16,7 @@ import 'package:http/http.dart';
  *
  * included dark and light theme
  *
- * Currently I have bug, when user scrolls to bottom of the grid, and new items
- * are loaded, then user is redirected to top of the list. looking for solution.
+ *
  *
  *
 
